@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+
+test_car.py
+test_env.py
+test_track.py
