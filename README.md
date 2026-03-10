@@ -22,6 +22,16 @@ The goal of the agent is to **navigate the track without colliding with the wall
 
 ---
 
+## Key Features
+
+• Custom reinforcement learning environment built with Gymnasium  
+• Sensor-based perception using ray-casting (LiDAR-style)  
+• PPO agent trained with Stable-Baselines3  
+• Real-time visualization using Pygame  
+• Containerized using Docker for reproducibility  
+
+---
+
 ## System Architecture
 
 The system consists of three major components:
@@ -149,7 +159,7 @@ car_rl_agent/
 ### 1. Clone the repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/ashifa-1/car_rl_agent
 cd car_rl_agent
 ```
 
@@ -270,6 +280,18 @@ The learning curve is visualized in:
 ```
 results/reward_curve.png
 ```
+
+The following graph shows the learning progress of the agent during training.
+
+![Reward Curve](results/reward_curve.png)
+
+## Agent Demonstration
+
+After training, the agent successfully learns to drive around the track without crashing.
+
+The demonstration video can be found here:
+
+results/agent_demonstration.mp4
 
 Evaluation results:
 
