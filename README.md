@@ -293,7 +293,7 @@ The demonstration video can be found here:
 
 results/agent_demonstration.mp4
 
-Evaluation results:
+## Evaluation results:
 
 ```
 Mean Reward: 45.0
@@ -308,10 +308,3 @@ This indicates the agent learned a **stable driving policy** and consistently co
 
 This project demonstrates how reinforcement learning can be applied to autonomous driving tasks using simulation.
 By combining a custom environment, sensor-based perception, and the PPO algorithm, the agent successfully learns to navigate a track safely.
-
-The project provides a practical introduction to:
-
-* Reinforcement learning environment design
-* Sensor-based perception systems
-* Training autonomous agents
-* Deploying ML projects using Docker
