@@ -40,7 +40,29 @@ The system consists of three major components:
 
    * Learns an optimal driving policy based on sensor observations.
    * Maximizes reward by avoiding collisions and surviving longer.
-
+```
+        +--------------------+
+        |   PPO RL Agent     |
+        +---------+----------+
+                  |
+                  v
+        +--------------------+
+        | Gymnasium Env      |
+        | (step / reset)     |
+        +---------+----------+
+                  |
+                  v
+        +--------------------+
+        | Pygame Simulation  |
+        | Car + Track        |
+        +---------+----------+
+                  |
+                  v
+        +--------------------+
+        | Ray Sensors        |
+        | Distance Readings  |
+        +--------------------+
+```
 ---
 
 ## Observation Space
